@@ -1,8 +1,0 @@
-#!/bin/bash
-
-PLAYER=/usr/bin/mplayer
-SONG="/home/jerry/Scripts/music/alarm.mp3"
-killall wakeup-volume
-/usr/local/bin/wakeup-volume&
-$PLAYER -loop 1  "$SONG"
-sleep 5

@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#/usr/bin/amixer sset speech-dispatcher playback 100
+
+for ((i = 35; i <= 100; i++)) do
+/usr/bin/amixer sset Master playback $i%
+sleep .5
+done
+
+
