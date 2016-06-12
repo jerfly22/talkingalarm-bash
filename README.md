@@ -16,3 +16,10 @@
  Changed output to file
  Changed festival to read file not strings
  broke out code to different scripts
+
+ you will need to install festival and gcalcli for this to work. They are part of the repos in ubuntu.  You can change the voice on festival with a little searching on the web.  If you don't have the calc program installed you may need to install that as well.
+ 
+ sudo apt-get install festival
+ sudo apt-get install gcalcli
+ sudo apt-get install apcalc
+ 
